@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>activation_layer.h</itemPath>
+      <itemPath>activations.h</itemPath>
+      <itemPath>avgpool_layer.h</itemPath>
+      <itemPath>batchnorm_layer.h</itemPath>
+      <itemPath>blas.h</itemPath>
+      <itemPath>box.h</itemPath>
+      <itemPath>col2im.h</itemPath>
+      <itemPath>connected_layer.h</itemPath>
+      <itemPath>convolutional_layer.h</itemPath>
+      <itemPath>cost_layer.h</itemPath>
+      <itemPath>crop_layer.h</itemPath>
+      <itemPath>cuda.h</itemPath>
+      <itemPath>data.h</itemPath>
+      <itemPath>deconvolutional_layer.h</itemPath>
+      <itemPath>demo.h</itemPath>
+      <itemPath>detection_layer.h</itemPath>
+      <itemPath>dropout_layer.h</itemPath>
+      <itemPath>gemm.h</itemPath>
+      <itemPath>gru_layer.h</itemPath>
+      <itemPath>im2col.h</itemPath>
+      <itemPath>image.h</itemPath>
+      <itemPath>layer.h</itemPath>
+      <itemPath>list.h</itemPath>
+      <itemPath>local_layer.h</itemPath>
+      <itemPath>matrix.h</itemPath>
+      <itemPath>maxpool_layer.h</itemPath>
+      <itemPath>network.h</itemPath>
+      <itemPath>normalization_layer.h</itemPath>
+      <itemPath>option_list.h</itemPath>
+      <itemPath>parser.h</itemPath>
+      <itemPath>rcnn_layer.h</itemPath>
+      <itemPath>region_layer.h</itemPath>
+      <itemPath>reorg_layer.h</itemPath>
+      <itemPath>rnn_layer.h</itemPath>
+      <itemPath>route_layer.h</itemPath>
+      <itemPath>shortcut_layer.h</itemPath>
+      <itemPath>softmax_layer.h</itemPath>
+      <itemPath>stb_image.h</itemPath>
+      <itemPath>stb_image_write.h</itemPath>
+      <itemPath>tree.h</itemPath>
+      <itemPath>utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>activation_layer.c</itemPath>
+      <itemPath>activations.c</itemPath>
+      <itemPath>avgpool_layer.c</itemPath>
+      <itemPath>batchnorm_layer.c</itemPath>
+      <itemPath>blas.c</itemPath>
+      <itemPath>box.c</itemPath>
+      <itemPath>col2im.c</itemPath>
+      <itemPath>connected_layer.c</itemPath>
+      <itemPath>convolutional_layer.c</itemPath>
+      <itemPath>cost_layer.c</itemPath>
+      <itemPath>crop_layer.c</itemPath>
+      <itemPath>cuda.c</itemPath>
+      <itemPath>data.c</itemPath>
+      <itemPath>deconvolutional_layer.c</itemPath>
+      <itemPath>demo.c</itemPath>
+      <itemPath>detection_layer.c</itemPath>
+      <itemPath>dropout_layer.c</itemPath>
+      <itemPath>gemm.c</itemPath>
+      <itemPath>gru_layer.c</itemPath>
+      <itemPath>im2col.c</itemPath>
+      <itemPath>image.c</itemPath>
+      <itemPath>layer.c</itemPath>
+      <itemPath>list.c</itemPath>
+      <itemPath>local_layer.c</itemPath>
+      <itemPath>matrix.c</itemPath>
+      <itemPath>maxpool_layer.c</itemPath>
+      <itemPath>network.c</itemPath>
+      <itemPath>normalization_layer.c</itemPath>
+      <itemPath>option_list.c</itemPath>
+      <itemPath>parser.c</itemPath>
+      <itemPath>rcnn_layer.c</itemPath>
+      <itemPath>region_layer.c</itemPath>
+      <itemPath>reorg_layer.c</itemPath>
+      <itemPath>rnn_layer.c</itemPath>
+      <itemPath>route_layer.c</itemPath>
+      <itemPath>shortcut_layer.c</itemPath>
+      <itemPath>softmax_layer.c</itemPath>
+      <itemPath>tree.c</itemPath>
+      <itemPath>utils.c</itemPath>
+      <itemPath>yolo.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="activation_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="activation_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="activations.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="activations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="avgpool_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="avgpool_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="batchnorm_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="batchnorm_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="blas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="blas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="box.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="box.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="col2im.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="col2im.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="connected_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="connected_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="convolutional_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="convolutional_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cost_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cost_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crop_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crop_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cuda.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cuda.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="data.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="deconvolutional_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="deconvolutional_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="demo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="demo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="detection_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="detection_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dropout_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dropout_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gemm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gemm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gru_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gru_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="im2col.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="im2col.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="local_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="local_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="matrix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maxpool_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="maxpool_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="network.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="normalization_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="normalization_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="option_list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="option_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parser.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rcnn_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rcnn_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="region_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="region_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reorg_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reorg_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rnn_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rnn_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="route_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="route_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shortcut_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shortcut_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="softmax_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="softmax_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stb_image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stb_image_write.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="yolo.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="activation_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="activation_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="activations.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="activations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="avgpool_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="avgpool_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="batchnorm_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="batchnorm_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="blas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="blas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="box.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="box.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="col2im.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="col2im.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="connected_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="connected_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="convolutional_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="convolutional_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cost_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cost_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crop_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crop_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="cuda.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cuda.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="data.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="data.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="deconvolutional_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="deconvolutional_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="demo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="demo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="detection_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="detection_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dropout_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="dropout_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gemm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gemm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gru_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gru_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="im2col.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="im2col.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="image.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="local_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="local_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="matrix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="maxpool_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="maxpool_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="network.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="network.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="normalization_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="normalization_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="option_list.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="option_list.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parser.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rcnn_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rcnn_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="region_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="region_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reorg_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reorg_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rnn_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rnn_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="route_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="route_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shortcut_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shortcut_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="softmax_layer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="softmax_layer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stb_image.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="stb_image_write.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tree.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="tree.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="yolo.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
